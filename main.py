@@ -7,7 +7,7 @@ print('''The program will start shortly, tab into discord to start.''')
 sleep(4)
 for i in range(start,end+1):
     keyboard.write(str(i),0.02)
+    sleep(3) #shorten this to make it more fast
     keyboard.press("enter")
     sleep(0.01)
     keyboard.release("enter")
-    sleep(3)
